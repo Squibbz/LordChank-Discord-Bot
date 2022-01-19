@@ -1,0 +1,21 @@
+{
+  "name": "chanklord",
+  "version": "1.0.0",
+  "description": "All hail Lord Chanky",
+  "main": "/lordchank.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./lordchank.js",
+    "dev": "nodemon ./lordchank.js"
+  },
+  "author": "DJ Dad Mouth",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.5.1",
+    "dotenv": "^10.0.0",
+    "@discordjs/opus": "^0.7.0",
+    "opusscript": "^0.0.8",
+    "ffmpeg": "^0.0.4"
+  },
+  "nodeVersion": "12.16.3"
+}
